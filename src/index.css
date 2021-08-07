@@ -1,13 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: url("./images/image1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.app {
+  font-family: "Style Script", cursive;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app h1 {
+  margin-top: 13rem;
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+}
+.app p {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.score-part .score-p .left {
+  color: black;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin-bottom: 1px;
+  line-height: 10px;
+}
+.score-part .score-p .score {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.app .footer h4 {
+  margin-top: 11rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.548);
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
